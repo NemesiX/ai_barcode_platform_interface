@@ -1,12 +1,13 @@
 name: ai_barcode_platform_interface
 description: scan barcode and create barcode 's plugin interface from 'ai_barcode' plugin.
-version: 3.0.1
-homepage: https://pdliuw.github.io/
-repository: https://github.com/pdliuw/ai_barcode
+version: 4.0.0
+# homepage: https://pdliuw.github.io/
+# repository: https://github.com/pdliuw/ai_barcode
+publish_to: 'none'
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
-  flutter: ">=2.5.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.1.0"
 
 dependencies:
   flutter:

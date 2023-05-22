@@ -19,7 +19,7 @@ const String _viewIdOfCreator = "view_type_id_creator_view";
 
 ///AiBarcodePlatform
 ///
-abstract class AiBarcodePlatform {
+mixin AiBarcodePlatform {
   ///
   /// MethodChannel
   static MethodChannel get methodChannelScanner => _methodChannelScanner;
